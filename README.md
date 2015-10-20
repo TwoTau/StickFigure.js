@@ -1,14 +1,14 @@
 # StickFigure.js
-A JavaScript library for creating stick figures and drawing them on &lt;canvas>
+A JavaScript library for creating stick figures and drawing them on &lt;canvas&gt;
 
-To use this library, add it to your HTML:
+To use this library, download it to your scripts folder and add a link to it in your HTML:
 ```html
-<script src="https://raw.githubusercontent.com/TwoTau/StickFigure.js/master/StickFigure.js"></script>
+<script src="scripts/StickFigure.js"></script>
 ```
 
 First, you need to get your canvas' context.
 ```javascript
-var canvas = document.getElementsById("canvas");
+var canvas = document.getElementById("demo");
 var ctx = canvas.getContext("2d"); // the canvas context
 ```
 
@@ -37,3 +37,9 @@ stick.legs.right.foot.angle = -65;
 
 stick.head.center.y = 400;
 ```
+
+![StickFigure.js example](http://twotau.github.io/img/stickfigurejsexample.png)
+
+[View a demo here!](http://twotau.github.io/demo/stickfigure.html)
+
+[View the demo source](https://github.com/TwoTau/twotau.github.io/blob/master/demo/stickDemo.js)
